@@ -1,0 +1,16 @@
+@use "./navbar.scss";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  width: min(60%, 80rem);
+  margin-inline: auto;
+}

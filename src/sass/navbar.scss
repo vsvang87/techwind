@@ -1,0 +1,22 @@
+@use "./colors" as *;
+@use "./mixins" as *;
+
+nav {
+  .navbar {
+    @include flexspacebetween;
+    padding: 1.5rem 0;
+    .logo {
+    }
+    .nav-links {
+      @include flexspacebetween;
+
+      li {
+        list-style-type: none;
+        padding: 0 1rem;
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
