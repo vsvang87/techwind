@@ -1,0 +1,7 @@
+@use "./colors" as *;
+@use "./mixins" as *;
+
+.middle-section {
+  background: $lightGray;
+  min-height: 100vh;
+}

@@ -1,4 +1,7 @@
 @use "./navbar.scss";
+@use "./home.scss";
+@use "./banner.scss";
+@use "./section1.scss";
 
 * {
   box-sizing: border-box;
@@ -7,10 +10,11 @@
 }
 
 body {
-  font-family: "Manrope", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 .container {
-  width: min(60%, 80rem);
+  width: min(80%, 100rem);
+  max-width: 1120px;
   margin-inline: auto;
 }

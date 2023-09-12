@@ -8,7 +8,7 @@ import spotify from "/images/spotify.svg";
 
 const Banner = () => {
   return (
-    <section>
+    <section className="banner-section">
       <div className="container">
         <div className="banner-content">
           <div className="img-div">

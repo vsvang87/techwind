@@ -1,0 +1,69 @@
+@use "./colors" as *;
+@use "./mixins" as *;
+
+.home-section {
+  min-height: 70vh;
+
+  .home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70vh;
+
+    .flex-start {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 3rem;
+    }
+
+    .left {
+      letter-spacing: 0.1rem;
+      padding-top: 2rem;
+      width: 55%;
+      h1 {
+        font-size: 3rem;
+
+        .blue-text {
+          color: $darkBlue;
+        }
+      }
+      p {
+        color: $textGray;
+        margin: 1.8rem 0;
+        font-weight: 600;
+      }
+      .start-btn {
+        background: $darkBlue;
+        border: none;
+        margin: 0 1rem 0 0;
+        cursor: pointer;
+        padding: 0.8rem 2rem;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 1rem;
+      }
+      .doc-btn {
+        border: 1px solid $darkBlue;
+        background: transparent;
+        margin: 0 1rem 0 0;
+        cursor: pointer;
+        padding: 0.8rem 2rem;
+        border-radius: 5px;
+        color: $darkBlue;
+        font-size: 1rem;
+        transition: 0.15s ease-in-out;
+        &:hover {
+          background: $darkBlue;
+          color: #fff;
+        }
+      }
+    }
+    .right {
+      width: 45%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

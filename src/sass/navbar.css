@@ -1,8 +1,23 @@
+nav {
+  padding-bottom: 5rem;
+}
 nav .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 0;
+}
+nav .navbar .logo a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0;
+}
+nav .navbar .logo a .cube {
+  color: #4f46e5;
+  margin: 0;
 }
 nav .navbar .nav-links {
   display: flex;
@@ -15,4 +30,26 @@ nav .navbar .nav-links li {
 }
 nav .navbar .nav-links li a {
   text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+nav .navbar .setting-cart a {
+  margin-left: 1rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 50px 50px;
+}
+nav .navbar .setting-cart a .setting {
+  color: #4f46e5;
+}
+nav .navbar .setting-cart a .cart {
+  color: #fff;
+}
+nav .navbar .setting-cart .bg-setting {
+  border: 1px solid rgb(224, 224, 224);
+}
+nav .navbar .setting-cart .bg-cart {
+  background: #4f46e5;
 }/*# sourceMappingURL=navbar.css.map */

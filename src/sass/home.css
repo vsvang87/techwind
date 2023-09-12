@@ -1,0 +1,62 @@
+.home-section {
+  min-height: 70vh;
+}
+.home-section .home-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70vh;
+}
+.home-section .home-content .flex-start {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3rem;
+}
+.home-section .home-content .left {
+  letter-spacing: 0.1rem;
+  padding-top: 2rem;
+  width: 55%;
+}
+.home-section .home-content .left h1 {
+  font-size: 3rem;
+}
+.home-section .home-content .left h1 .blue-text {
+  color: #4f46e5;
+}
+.home-section .home-content .left p {
+  color: gray;
+  margin: 1.8rem 0;
+  font-weight: 600;
+}
+.home-section .home-content .left .start-btn {
+  background: #4f46e5;
+  border: none;
+  margin: 0 1rem 0 0;
+  cursor: pointer;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+}
+.home-section .home-content .left .doc-btn {
+  border: 1px solid #4f46e5;
+  background: transparent;
+  margin: 0 1rem 0 0;
+  cursor: pointer;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  color: #4f46e5;
+  font-size: 1rem;
+  transition: 0.15s ease-in-out;
+}
+.home-section .home-content .left .doc-btn:hover {
+  background: #4f46e5;
+  color: #fff;
+}
+.home-section .home-content .right {
+  width: 45%;
+}
+.home-section .home-content .right img {
+  width: 100%;
+}/*# sourceMappingURL=home.css.map */

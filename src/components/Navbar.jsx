@@ -14,8 +14,9 @@ const Navbar = () => {
         <div className="navbar">
           <div className="logo">
             <Link to="">
-              <BiCubeAlt /> TechWind
+              <BiCubeAlt className="cube" />
             </Link>
+            <Link to="">TechWind</Link>
           </div>
           <ul className="nav-links">
             <li>
@@ -46,11 +47,11 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="setting-cart">
-            <Link>
-              <FiSettings />
+            <Link className="bg-setting">
+              <FiSettings className="setting" />
             </Link>
-            <Link>
-              <CiShoppingCart />
+            <Link className="bg-cart">
+              <CiShoppingCart className="cart" />
             </Link>
           </div>
         </div>

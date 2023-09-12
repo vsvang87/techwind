@@ -1,0 +1,20 @@
+.banner-section {
+  border-top: 1px solid rgb(224, 224, 224);
+  border-bottom: 1px solid rgb(224, 224, 224);
+  min-height: 12vh;
+}
+.banner-section .banner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 12vh;
+}
+.banner-section .banner-content .img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16%;
+}
+.banner-section .banner-content .img-div img {
+  width: 50%;
+}/*# sourceMappingURL=banner.css.map */
