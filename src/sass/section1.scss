@@ -4,4 +4,33 @@
 .middle-section {
   background: $lightGray;
   min-height: 100vh;
+  padding: 1rem 0;
+  .middle-content {
+    .content-1 {
+      @include flexcenter;
+      flex-direction: column;
+      margin: 5rem auto;
+      width: 50%;
+      text-align: center;
+      h1 {
+        margin-bottom: 2rem;
+      }
+      p {
+        line-height: 1.5rem;
+      }
+    }
+
+    .content-2 {
+      @include flexspacebetween;
+      .content-2-left {
+        width: 45%;
+        img {
+          width: 100%;
+        }
+      }
+      .content-2-right {
+        width: 55%;
+      }
+    }
+  }
 }
