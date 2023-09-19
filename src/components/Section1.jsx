@@ -86,18 +86,27 @@ const Section1 = () => {
                 <img src={img} alt="phone-heart img" />
                 <form>
                   <div className="form-group">
-                    <label htmlFor="name">Name</label>
-                    <FiUser />
+                    <label htmlFor="name">
+                      <FiUser />
+                      Name:
+                    </label>
+
                     <input type="text" />
                   </div>
                   <div className="form-group">
-                    <label htmlFor="email">Email</label>
-                    <PiEnvelopeSimpleThin />
+                    <label htmlFor="email">
+                      <PiEnvelopeSimpleThin />
+                      Email:
+                    </label>
+
                     <input type="text" />
                   </div>
                   <div className="form-group">
-                    <label htmlFor="password">Password</label>
-                    <RiKey2Line />
+                    <label htmlFor="password">
+                      <RiKey2Line />
+                      Password:
+                    </label>
+
                     <input type="text" />
                   </div>
                   <div className="form-group">

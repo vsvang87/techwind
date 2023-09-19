@@ -104,6 +104,7 @@
         width: 40%;
         .form-div {
           border: 1px solid $darkGray;
+          width: 100%;
           border-radius: 8px;
           background: #fff;
           img {
@@ -112,6 +113,33 @@
           }
           form {
             padding: 1rem 2rem;
+            .form-group {
+              display: flex;
+              justify-content: center;
+              align-items: flex-start;
+              flex-direction: column;
+              margin: 1rem 0;
+              label {
+                font-weight: bold;
+              }
+              input {
+                width: 100%;
+                padding: 0.7rem 0.5rem;
+                outline: none;
+                border: 1px solid $darkGray;
+                border-radius: 5px;
+              }
+              button {
+                width: 100%;
+                padding: 0.7rem;
+                border: 1px solid $darkBlue;
+                border-radius: 5px;
+                background: $darkBlue;
+                color: #fff;
+                cursor: pointer;
+                font-size: 1.2rem;
+              }
+            }
           }
         }
       }

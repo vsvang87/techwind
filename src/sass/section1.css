@@ -104,6 +104,7 @@
 }
 .middle-section .middle-content .content-3 .content-3-right .form-div {
   border: 1px solid rgb(236, 236, 236);
+  width: 100%;
   border-radius: 8px;
   background: #fff;
 }
@@ -113,4 +114,31 @@
 }
 .middle-section .middle-content .content-3 .content-3-right .form-div form {
   padding: 1rem 2rem;
+}
+.middle-section .middle-content .content-3 .content-3-right .form-div form .form-group {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+.middle-section .middle-content .content-3 .content-3-right .form-div form .form-group label {
+  font-weight: bold;
+}
+.middle-section .middle-content .content-3 .content-3-right .form-div form .form-group input {
+  width: 100%;
+  padding: 0.7rem 0.5rem;
+  outline: none;
+  border: 1px solid rgb(236, 236, 236);
+  border-radius: 5px;
+}
+.middle-section .middle-content .content-3 .content-3-right .form-div form .form-group button {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #4f46e5;
+  border-radius: 5px;
+  background: #4f46e5;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2rem;
 }/*# sourceMappingURL=section1.css.map */
