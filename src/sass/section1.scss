@@ -4,25 +4,29 @@
 .middle-section {
   background: $lightGray;
   min-height: 100vh;
-  padding: 1rem 0;
+  padding-bottom: 3rem;
   .middle-content {
+    padding: 3rem 0;
     .content-1 {
       @include flexcenter;
       flex-direction: column;
       margin: 5rem auto;
       width: 50%;
       text-align: center;
-      h1 {
-        margin-bottom: 2rem;
-      }
+
       p {
         line-height: 1.5rem;
+        color: $textGray;
+        font-weight: bold;
+        letter-spacing: 0.05rem;
+        margin: 1rem 0;
       }
     }
 
     .content-2 {
       @include flexspacebetween;
       gap: 3rem;
+      padding-bottom: 4rem;
       .content-2-left {
         width: 45%;
         img {
@@ -32,6 +36,33 @@
       .content-2-right {
         width: 55%;
         padding-left: 3rem;
+
+        p {
+          margin: 1rem 0;
+          line-height: 1.5rem;
+          color: $textGray;
+          font-weight: bold;
+          letter-spacing: 0.05rem;
+        }
+        .list {
+          line-height: 1.5rem;
+          color: $textGray;
+          font-weight: bold;
+          letter-spacing: 0.05rem;
+          list-style-type: none;
+          margin-bottom: 1rem;
+          li {
+            .list-icon {
+              margin-right: 0.5rem;
+              color: $darkBlue;
+            }
+          }
+        }
+        .link {
+          text-decoration: none;
+          color: $darkBlue;
+          font-weight: bold;
+        }
       }
     }
     .content-3 {
@@ -39,12 +70,41 @@
       gap: 3rem;
       .content-3-left {
         width: 60%;
+        .blue-text {
+          color: $darkBlue;
+        }
+        p {
+          margin: 1rem 0;
+          line-height: 1.5rem;
+          color: $textGray;
+          font-weight: bold;
+          letter-spacing: 0.05rem;
+        }
+        .left-list {
+          list-style-type: none;
+          line-height: 1.5rem;
+          color: $textGray;
+          font-weight: bold;
+          letter-spacing: 0.05rem;
+          margin-bottom: 1rem;
+          li {
+            .list-icon {
+              margin-right: 0.5rem;
+              color: $darkBlue;
+            }
+          }
+        }
+        .link {
+          text-decoration: none;
+          color: $darkBlue;
+          font-weight: bold;
+        }
       }
       .content-3-right {
         width: 40%;
         .form-div {
           border: 1px solid $darkGray;
-          border-radius: 5px;
+          border-radius: 8px;
           background: #fff;
           img {
             width: 100%;

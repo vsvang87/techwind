@@ -1,0 +1,8 @@
+@use "./colors" as *;
+@use "./mixins" as *;
+
+.section-2 {
+  min-height: 100vh;
+  .sect-2-content {
+  }
+}

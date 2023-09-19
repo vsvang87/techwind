@@ -5,6 +5,7 @@ import { FiChevronRight } from "react-icons/fi";
 import { FiUser } from "react-icons/fi";
 import { PiEnvelopeSimpleThin } from "react-icons/pi";
 import { RiKey2Line } from "react-icons/ri";
+import { BsCheckCircle } from "react-icons/bs";
 import img from "/images/heart-phone.svg";
 
 const Section1 = () => {
@@ -30,27 +31,53 @@ const Section1 = () => {
                 you can take a component from the Application theme and use it
                 in the Website.
               </p>
-              <ul>
-                <li>Digital Marketing Solutions for Tomorrow</li>
-                <li>Our Talented & Experienced Marketing Agency</li>
-                <li>Create your won skin to match your brand</li>
+              <ul className="list">
+                <li>
+                  <BsCheckCircle className="list-icon" />
+                  Digital Marketing Solutions for Tomorrow
+                </li>
+
+                <li>
+                  <BsCheckCircle className="list-icon" />
+                  Our Talented & Experienced Marketing Agency
+                </li>
+
+                <li>
+                  <BsCheckCircle className="list-icon" />
+                  Create your won skin to match your brand
+                </li>
               </ul>
+              <Link to="" className="link">
+                Find Out More <FiChevronRight />
+              </Link>
             </div>
           </div>
           <div className="content-3">
             <div className="content-3-left">
-              <h1>Speed up your development with Techwind.</h1>
+              <h1>
+                Speed up your development with{" "}
+                <span className="blue-text">Techwind.</span>
+              </h1>
               <p>
                 You can combine all the Techwind templates into a single one,
                 you can take a component from the Application theme and use it
                 in the Website.
               </p>
-              <ul>
-                <li>Digital Marketing Solutions for Tomorrow</li>
-                <li>Our Talented & Experienced Marketing Agency</li>
-                <li>Create your own skin to match your brand</li>
+              <ul className="left-list">
+                <li>
+                  <BsCheckCircle className="list-icon" />
+                  Digital Marketing Solutions for Tomorrow
+                </li>
+                <li>
+                  <BsCheckCircle className="list-icon" />
+                  Our Talented & Experienced Marketing Agency
+                </li>
+                <li>
+                  <BsCheckCircle className="list-icon" />
+                  Create your own skin to match your brand
+                </li>
               </ul>
-              <Link to="">
+              <Link to="" className="link">
                 Find Out More <FiChevronRight />
               </Link>
             </div>
