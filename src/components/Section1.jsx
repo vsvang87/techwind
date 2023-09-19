@@ -2,6 +2,9 @@ import React from "react";
 import seo from "/images/seo.svg";
 import { Link } from "react-router-dom";
 import { FiChevronRight } from "react-icons/fi";
+import { FiUser } from "react-icons/fi";
+import { PiEnvelopeSimpleThin } from "react-icons/pi";
+import { RiKey2Line } from "react-icons/ri";
 import img from "/images/heart-phone.svg";
 
 const Section1 = () => {
@@ -52,20 +55,26 @@ const Section1 = () => {
               </Link>
             </div>
             <div className="content-3-right">
-              <div className="form">
+              <div className="form-div">
                 <img src={img} alt="phone-heart img" />
                 <form>
                   <div className="form-group">
                     <label htmlFor="name">Name</label>
+                    <FiUser />
                     <input type="text" />
                   </div>
                   <div className="form-group">
                     <label htmlFor="email">Email</label>
+                    <PiEnvelopeSimpleThin />
                     <input type="text" />
                   </div>
                   <div className="form-group">
                     <label htmlFor="password">Password</label>
+                    <RiKey2Line />
                     <input type="text" />
+                  </div>
+                  <div className="form-group">
+                    <button>Download</button>
                   </div>
                 </form>
               </div>

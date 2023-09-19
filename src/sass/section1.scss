@@ -34,5 +34,27 @@
         padding-left: 3rem;
       }
     }
+    .content-3 {
+      @include flexspacebetween;
+      gap: 3rem;
+      .content-3-left {
+        width: 60%;
+      }
+      .content-3-right {
+        width: 40%;
+        .form-div {
+          border: 1px solid $darkGray;
+          border-radius: 5px;
+          background: #fff;
+          img {
+            width: 100%;
+            padding: 2rem;
+          }
+          form {
+            padding: 1rem 2rem;
+          }
+        }
+      }
+    }
   }
 }

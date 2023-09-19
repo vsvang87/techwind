@@ -48,7 +48,7 @@ nav .navbar .setting-cart a .cart {
   color: #fff;
 }
 nav .navbar .setting-cart .bg-setting {
-  border: 1px solid rgb(224, 224, 224);
+  border: 1px solid rgb(236, 236, 236);
 }
 nav .navbar .setting-cart .bg-cart {
   background: #4f46e5;
@@ -118,8 +118,8 @@ nav .navbar .setting-cart .bg-cart {
 }
 
 .banner-section {
-  border-top: 1px solid rgb(224, 224, 224);
-  border-bottom: 1px solid rgb(224, 224, 224);
+  border-top: 1px solid rgb(236, 236, 236);
+  border-bottom: 1px solid rgb(236, 236, 236);
   min-height: 12vh;
 }
 .banner-section .banner-content {
@@ -136,6 +136,43 @@ nav .navbar .setting-cart .bg-cart {
 }
 .banner-section .banner-content .img-div img {
   width: 50%;
+}
+
+.middle-section {
+  background: #f9fafb;
+  min-height: 100vh;
+  padding: 1rem 0;
+}
+.middle-section .middle-content .content-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5rem auto;
+  width: 50%;
+  text-align: center;
+}
+.middle-section .middle-content .content-1 h1 {
+  margin-bottom: 2rem;
+}
+.middle-section .middle-content .content-1 p {
+  line-height: 1.5rem;
+}
+.middle-section .middle-content .content-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+.middle-section .middle-content .content-2 .content-2-left {
+  width: 45%;
+}
+.middle-section .middle-content .content-2 .content-2-left img {
+  width: 100%;
+}
+.middle-section .middle-content .content-2 .content-2-right {
+  width: 55%;
+  padding-left: 3rem;
 }
 
 * {
