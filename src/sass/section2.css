@@ -1,3 +1,51 @@
 .section-2 {
   min-height: 100vh;
+  padding: 5rem 0;
+}
+.section-2 .sect-2-content .content-1 {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.section-2 .sect-2-content .content-1 .blue-text {
+  color: #4f46e5;
+  font-weight: bold;
+}
+.section-2 .sect-2-content .content-1 h1 {
+  padding: 1rem 0;
+}
+.section-2 .sect-2-content .content-1 p {
+  color: gray;
+  font-weight: bold;
+}
+.section-2 .sect-2-content .carousel-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 5rem 0;
+}
+.section-2 .sect-2-content .carousel-div .carousel-card {
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  width: 50%;
+}
+.section-2 .sect-2-content .carousel-div .carousel-card img {
+  width: 35%;
+  border-radius: 10px 0 0 10px;
+}
+.section-2 .sect-2-content .rates-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-2 .sect-2-content .rates-div .rates-left {
+  width: 50%;
+}
+.section-2 .sect-2-content .rates-div .rates-right {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }/*# sourceMappingURL=section2.css.map */
